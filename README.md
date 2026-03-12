@@ -1,0 +1,47 @@
+# OpenClaw 優化配置
+
+這是我們自定義的 OpenClaw 配置，方便快速部署！
+
+---
+
+## 功能
+
+| 功能 | 說明 |
+|------|------|
+| **Memory Engine** | AI 自動學習系統 |
+| **自定義腳本** | 常用腳本集合 |
+| **技能** | 已安裝的技能 |
+
+---
+
+## 安裝方式
+
+```bash
+# Clone
+git clone https://github.com/felizkuo/openclaw-optimizations.git
+
+# 安裝 Memory Engine
+cp -r memory-engine ~/.openclaw/
+
+# 安裝腳本
+cp scripts/*.sh ~/.openclaw/workspace-cos/scripts/
+```
+
+---
+
+## 更新
+
+```bash
+cd openclaw-optimizations
+git pull
+cp -r memory-engine ~/.openclaw/
+```
+
+---
+
+## 貢獻
+
+有優化歡迎提交 PR！
+
+---
+*維護者：Feliz Kuo*
