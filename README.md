@@ -19,6 +19,7 @@
 
 - [OpenClaw Memory Optimization](docs/openclaw-memory-optimization.md) — 把記憶從日誌升級成可累積的大腦
 - [OpenClaw Intelligence Roadmap](docs/openclaw-intelligence-roadmap.md) — 讓 OpenClaw 比通用模型更適合 Plantex 員工日常工作
+- [Exhibition Lead Capture Workflow](docs/exhibition-lead-capture-workflow.md) — 展會名片/客戶線索 OCR、分類、追蹤與任務閉環
 
 ## 安裝方式
 
