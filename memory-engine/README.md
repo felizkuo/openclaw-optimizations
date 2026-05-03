@@ -57,5 +57,16 @@ memory-engine/
     └── reflect.js        # 反思腳本
 ```
 
+## 推薦記憶分層
+
+Memory Engine 應配合四層記憶架構使用：
+
+1. `memory/YYYY-MM-DD.md` — 每日工作日誌。
+2. `~/wiki/docs/topics/` 或 Obsidian vault — 主題化、交叉引用的知識庫。
+3. `MEMORY.md` — 精簡長期記憶與操作原則。
+4. `TASK_POOL.json` — 需要閉環的任務、風險與決策。
+
+詳細設計見：`docs/openclaw-memory-optimization.md`。
+
 ---
 *For OpenClaw*

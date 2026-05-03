@@ -9,10 +9,15 @@
 | 功能 | 說明 |
 |------|------|
 | **Memory Engine** | AI 自動學習系統 |
+| **Memory Optimization** | Logs → Wiki/Obsidian → Executive Memory → Task Closure |
 | **自定義腳本** | 常用腳本集合 |
 | **技能** | 已安裝的技能 |
 
 ---
+
+## 文件
+
+- [OpenClaw Memory Optimization](docs/openclaw-memory-optimization.md) — 把記憶從日誌升級成可累積的大腦
 
 ## 安裝方式
 
