@@ -22,6 +22,17 @@ Business card photo / scan
 → conversion / closed-lost / nurture
 ```
 
+
+## Local OCR Tool Available
+
+Agents can now create a lead draft from a business card image locally:
+
+```bash
+business-card-scan /path/to/card.jpg --event "Event Name" --owner "Sales Owner"
+```
+
+The record is saved as `needs_review`, not automatically approved. This makes the tool usable immediately while keeping data quality and privacy controls.
+
 ## Lead Record Fields
 
 ### P0 Fields

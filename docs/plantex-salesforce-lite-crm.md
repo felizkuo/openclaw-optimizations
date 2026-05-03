@@ -289,6 +289,26 @@ Then the system can answer:
 - Which salesperson follows up fastest?
 - Which customers are stuck because of certification, price, MOQ, or stock?
 
+
+## Business Card OCR MVP
+
+A local first version is available for agents now:
+
+```bash
+business-card-scan /path/to/card.jpg --event "THAIFEX 2026" --owner "sales"
+```
+
+What it does:
+
+- uses local Tesseract OCR, no cloud upload;
+- supports image input and first-page PDF input;
+- extracts likely company, contact, title, email, phone, website;
+- writes a `needs_review` lead draft to `~/ai-shared/vault/Business/Leads/exhibition_leads.jsonl`;
+- writes a human review note to `~/ai-shared/vault/Business/Leads/review/`;
+- stores raw OCR under `~/ai-shared/vault/Business/Leads/raw_ocr/`.
+
+This is intentionally an MVP: the first staff-facing workflow should be useful before the full CRM is finished. Human review remains required before external follow-up.
+
 ## First Build Priority
 
 1. Lead Capture table/schema.
